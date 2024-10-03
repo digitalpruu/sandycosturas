@@ -1,9 +1,9 @@
-const title = "Sandycosturas";
-const email = "Sandrajerez2020@hotmail.com";
+const title = "SANDY CONFECCIONES";
+const email = "Sandrajerez2020@hotmail.com ";
 const mensajeWhatsApp = encodeURIComponent(
     "¡Hola! Estoy interesado en conocer más sobre los productos de " + title + " y me gustaría obtener más información. ¡Gracias!"
 );
-const numeroWhatsApp = "+573175135997"; // Incluido el prefijo +57
+const numeroWhatsApp = "+3175135997"; // Incluido el prefijo +57
 
 const textos = {
     index: {
@@ -13,7 +13,8 @@ const textos = {
         title: title,
     },
     about: {
-        description1: "Sandycosturas se especializa en la confección de cubre lechos y cojines, combinando innovación y calidad en cada pieza. Con nuestro lema 'A cocer y a innovar', nos comprometemos a ofrecer productos que no solo cumplen con tus expectativas, sino que también aportan un toque único a tu hogar.",
+        description1: "Sandy confecciones se especializa en la elaboración de piezas artesanales en resina epóxica, también en confecciónes  de cubre lechos y cojines, combinando innovación y calidad en cada pieza. Nuestro lema es 'Innovacion y Experiencia', lo que refleja nuestro compromiso con la creatividad y la perfección en nuestros productos.\n" +
+            "En Sandy confecciones, dedicamos a ofrecer productos que no solo cumplen con tus expectativas, sino que también aportan un toque único a tu hogar. Descubre cómo nuestras confecciones y piezas en resinas pueden hacer la diferencia en tu decoración ,dándole un toque de elegancia y exclusividad."
     },
     contact: {
         whatsappLink: `https://wa.me/${numeroWhatsApp}?text=${mensajeWhatsApp}`,
